@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "f";
+const prefix = "u";
 /////////////////////////
 ////////////////////////
 
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : FoXGamer_IFG ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`fplay | Legends Music`,"http://twitch.tv/Legends Shop")
+client.user.setGame(`fplay | United server`,"http://twitch.tv/Legends Shop")
 client.user.setStatus("dnd")
 });
 
